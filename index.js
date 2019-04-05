@@ -1,6 +1,11 @@
-const app = document.getElementById("root");
+import { html, LitElement } from "lit-element";
 
-app.innerHTML = `
-<h1>hello</h1>
+class VisionCircle extends LitElement {
+  render() {
+    return html`
+      <div>test</div>
+    `;
+  }
+}
 
-`;
+customElements.define("vision-circle", VisionCircle);

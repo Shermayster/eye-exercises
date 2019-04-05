@@ -12,6 +12,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-syntax-decorators": "^7.2.0",
     "parcel-bundler": "^1.12.3"
-  }
+  },
+  "dependencies": {
+    "lit-element": "^2.1.0"
+  },
+  "browserslist": [
+    "Chrome > 46"
+  ]
 }

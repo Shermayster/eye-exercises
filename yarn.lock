@@ -787,6 +787,31 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
+"@webcomponents/custom-elements@^1.2.1":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@webcomponents/custom-elements/-/custom-elements-1.2.2.tgz#e561112a2c11e6347d248dabcb94d881f2a06bc3"
+  integrity sha512-9lckVAFpDEma94Ass/DHXY5ZoLZI5p+ambJQnra40npWIq+SQynvUHsJjLVmYartb4lZH9u+HLgfiAEnQih10Q==
+
+"@webcomponents/shadycss@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.9.0.tgz#8450465037370d4f5c32e801bb2554a7cf2f5037"
+  integrity sha512-g8Xa+6RSEME4g/wLJW4YII0eq15rvXp76RxPAuv7hx+Bdoi7GzZJ/EoZOUfyIbqAsQbII1TcWD4/+Xhs5NcM1w==
+
+"@webcomponents/shadydom@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/shadydom/-/shadydom-1.5.0.tgz#7cf7517eb63871f47bf4b3ec734146b9af944b0c"
+  integrity sha512-d6NamYIoQdrB3U7Ii1R1tUi4XrJ4OevfshJfpbkgY6Z0mio/mcI+UYH7EOd8nRqFAVOhLCssNglLNl4Lw2s1MQ==
+
+"@webcomponents/template@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/template/-/template-1.4.0.tgz#2ffd4574a5a2b662f0330dbeb40b231244a41c52"
+  integrity sha512-HJfhAxCD+DZmtm8oCALtvyOL9JlisSDqwE/4FWfaxq4SK3gUIp/2eUjLE6zqt9n6VHeo1zQjMTOA4fKKF6qSQg==
+
+"@webcomponents/webcomponents-platform@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponents-platform/-/webcomponents-platform-1.0.0.tgz#8879146380ddbecb8617e322497d59e77c3ff468"
+  integrity sha1-iHkUY4DdvsuGF+MiSX1Z53w/9Gg=
+
 abab@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.0.tgz#aba0ab4c5eee2d4c79d3487d85450fb2376ebb0f"
@@ -1475,7 +1500,7 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-core-js@^2.4.0:
+core-js@^2.4.0, core-js@^2.6.5:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
   integrity sha512-klh/kDpwX8hryYL14M9w/xei6vrv6sE8gTHDG7/T/+SEovB/G4ejwcfE/CBzO6Edsu+OETZMZ3wcX/EjUkrl5A==
@@ -2515,6 +2540,18 @@ https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
+
+hybrids@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/hybrids/-/hybrids-2.0.2.tgz#3a50aa7b460c3ec939c13c8c8a61b34768ef7891"
+  integrity sha512-epVf1zrq96by2+mxDXhmJe95a6eMdiBlEJF5HifQc5LfbJLmN2ckDniIcEdxXCkvfRqJVXH6lOBltYMnpJBxSQ==
+  dependencies:
+    "@webcomponents/custom-elements" "^1.2.1"
+    "@webcomponents/shadycss" "^1.9.0"
+    "@webcomponents/shadydom" "^1.5.0"
+    "@webcomponents/template" "^1.4.0"
+    "@webcomponents/webcomponents-platform" "^1.0.0"
+    core-js "^2.6.5"
 
 iconv-lite@0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
@@ -4957,6 +4994,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typescript@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.2.tgz#9ed4e6475d906f589200193be056f5913caed481"
+  integrity sha512-Og2Vn6Mk7JAuWA1hQdDQN/Ekm/SchX80VzLhjKN9ETYrIepBFAd8PkOdOTK2nKt0FCkmMZKBJvQ1dV1gIxPu/A==
 
 uncss@^0.16.2:
   version "0.16.2"

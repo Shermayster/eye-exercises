@@ -1,0 +1,43 @@
+@keyframes block-ani {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+@keyframes block-ani2 {
+  0% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  height: 10vh;
+}
+.block {
+  background-color: blue;
+  animation-name: block-ani;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  width: 100%;
+  height: 100%;
+}
+.row:nth-child(odd) .block:nth-child(odd) {
+  background-color: yellow;
+  animation-name: block-ani2;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+
+/*# sourceMappingURL=/eyes.77de5100.css.map */

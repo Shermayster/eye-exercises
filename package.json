@@ -1,17 +1,18 @@
 {
-  "name": "eye",
-  "private": true,
-  "version": "0.0.1",
-  "description": "Stencil App Starter",
+  "name": "eyes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Shermayster/eye-exercises.git",
+  "author": "Pavel Shermayster <sherm84@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "build": "stencil build",
-    "start": "stencil build --dev --watch --serve",
-    "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watchAll"
+    "dev": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.4.5"
   },
   "dependencies": {
-    "@stencil/core": "~0.16.2",
-    "@stencil/router": "~0.3.1"
-  },
-  "license": "MIT"
+    "rxjs": "^6.5.1"
+  }
 }

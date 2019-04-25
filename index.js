@@ -1,1 +1,0 @@
-import "./components/vision-circle";

@@ -1,27 +1,17 @@
 {
-  "name": "eyes",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "eye",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/plugin-syntax-decorators": "^7.2.0",
-    "parcel-bundler": "^1.12.3",
-    "typescript": "^3.4.2"
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "dependencies": {
-    "hybrids": "^2.0.2",
-    "lit-element": "^2.1.0"
+    "@stencil/core": "~0.16.2",
+    "@stencil/router": "~0.3.1"
   },
-  "browserslist": [
-    "Chrome > 46"
-  ]
+  "license": "MIT"
 }
